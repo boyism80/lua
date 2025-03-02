@@ -13,6 +13,7 @@ project(boyism80/lua,
 
 option(BUILD_SHARED_LIBS "Build as shared library" OFF)
 add_definitions(-DREDISCPP_HEADER_ONLY)
+add_compile_definitions(LUA_UCID)
 
 include(GNUInstallDirs)
 include_directories("${PROJECT_SOURCE_DIR}/upstream")
